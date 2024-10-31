@@ -14,9 +14,9 @@ const App = () => {
             textAlign: "center",
           }}
         >
-          App 2
+          Admin Web
         </h1>
-        <Counter/>
+        <Counter isAdmin={true}/>
       </div>
       <Footer />
     </>
